@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PubIQ Presenter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="presenter.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="presenter.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align:center;color:green;">
+            PubIQ
+        </h1><br />
+
+        <div id="waiting-for-players-presenter">
+            <h2>Odotetaan että pelaajat liittyvät peliin...</h2><br />
+            <h3>Peliin on liittynyt <span id="count-players" class="badge badge-pill badge-success">0</span> pelaaja(a)</h3><br />
+            <button id="btn-start-game" class="btn btn-primary btn-lg btn-block" type="button">Aloita peli</button>
+        </div>
+
+        <div id="introduce-players">
+            <h2 id="player-intro"></h2>
+        </div>
+
+        <div id="question">
+            <h2>Kysymys</h2><br />
+            <h3 id="question"></h3><br /><br />
+            <h4 id="answer-count"><span id="answer-count" class="badge badge-pill badge-success">0</span> on jo vastannut</h4>
+        </div>
+
+        <div id="question-answer">
+            <h2>Oikea vastaus</h2><br />
+            <h3 id="answer"></h3><br /><br />
+            <h3 id="context"></h3>
+        </div>
+
+        <div id="results">
+            <h2>Pelin tulokset</h2>
+            <h3 id="scores"></h3>
+        </div>
+
+        <audio id="narrator">
+            <source src="" type="audio/mpeg" id="path" />
+        </audio>
+
+        <span id="audio-finished"></span>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,334 @@
+{
+    "metadata": {
+        "author": "MR",
+        "time": 123456789
+    },
+    "questions": [
+        {
+            "id": 0,
+            "category": [
+                "historia",
+                "sota"
+            ],
+            "question": "Minä vuonna NATO:n perustusasiakirja allekirjoitettiin?",
+            "question_tts": "Minä vuonna NATOn perustusasiakirja allekirjoitettiin?",
+            "context_information": "Nato perustettiin 4. huhtikuuta 1949 Washington DC:ssä, Yhdysvalloissa allekirjoitetun Pohjois-Atlantin sopimuksen myötä.",
+            "context_information_tts": "Nato perustettiin neljäs huhtikuuta tuhat yhdeksän sataa neljäkymmentä yhdeksän Washington diisiissä, Yhdysvalloissa allekirjoitetun Pohjois-Atlantin sopimuksen myötä.",
+            "correct": "1949",
+            "correct_tts": "Oikea vastaus on vuonna tuhat yhdeksän sataa neljäkymmentä yhdeksän.",
+            "incorrect_1": "1925",
+            "incorrect_2": "1963",
+            "incorrect_3": "1958"
+        },
+        {
+            "id": 1,
+            "category": [
+                "mytologia"
+            ],
+            "question": "Montako päätä oli hydralla?",
+            "question_tts": "Montako päätä oli hydralla?",
+            "context_information": "Hydran pystyi tappamaan vain polttamalla tai katkaisemalla sen kaikki päät nopeasti, sillä se sai uusia päitä menetettyjen tilalle nopeaan tahtiin.",
+            "context_information_tts": "Hydran pystyi tappamaan vain polttamalla tai katkaisemalla sen kaikki päät nopeasti, sillä se sai uusia päitä menetettyjen tilalle nopeaan tahtiin.",
+            "correct": "9",
+            "correct_tts": "Oikea vastaus on yhdeksän.",
+            "incorrect_1": "5",
+            "incorrect_2": "6",
+            "incorrect_3": "8"
+        },
+        {
+            "id": 2,
+            "category": [
+                "kielet",
+                "suomi"
+            ],
+            "question": "Mikä on Suomessa eniten puhuttu saamelaiskieli?",
+            "question_tts": "Mikä on Suomessa eniten puhuttu saamelaiskieli?",
+            "context_information": "Pohjoissaamea puhuvat pohjoissaamelaiset, joita on Suomen, Ruotsin ja Norjan pohjoisosissa noin 50 000 henkilöä.",
+            "context_information_tts": "Pohjoissaamea puhuvat pohjoissaamelaiset, joita on Suomen, Ruotsin ja Norjan pohjoisosissa noin viisikymmentä tuhatta henkilöä.",
+            "correct": "pohjoissaame",
+            "correct_tts": "Oikea vastaus on pohjoissaame.",
+            "incorrect_1": "inarinsaame",
+            "incorrect_2": "kolttasaame",
+            "incorrect_3": "eteläsaame"
+        },
+        {
+            "id": 3,
+            "category": [
+                "eläinkunta",
+                "suomi"
+            ],
+            "question": "Mikä on Suomen kansalliseläin?",
+            "question_tts": "Mikä on Suomen kansalliseläin?",
+            "context_information": "Se on ollut muinaissuomalaisille pelätty, mutta myös pyhä ja arvostettu eläin.",
+            "context_information_tts": "Se on ollut muinaissuomalaisille pelätty, mutta myös pyhä ja arvostettu eläin.",
+            "correct": "karhu",
+            "correct_tts": "Oikea vastaus on karhu.",
+            "incorrect_1": "joutsen",
+            "incorrect_2": "ahven",
+            "incorrect_3": "ilves"
+        },
+        {
+            "id": 4,
+            "category": [
+                "historia",
+                "koulu"
+            ],
+            "question": "Missä sijaitsee maailman ensimmäinen yliopisto?",
+            "question_tts": "Missä sijaitsee maailman ensimmäinen yliopisto?",
+            "context_information": "Yliopiston perustamisasiakirja laadittiin 1158. Sitä pidetään maailman vanhimpana yliopistona.",
+            "context_information_tts": "Yliopiston perustamisasiakirja laadittiin vuonna tuhat sata viisikymmentä kahdeksan. Sitä pidetään maailman vanhimpana yliopistona.",
+            "correct": "Bolognassa, Italiassa",
+            "correct_tts": "Oikea vastaus on Bologna.",
+            "incorrect_1": "Roomassa, Italiassa",
+            "incorrect_2": "Oxfordissa, Englannissa",
+            "incorrect_3": "Alexandriassa, Egyptissä"
+        },
+        {
+            "id": 5,
+            "category": [
+                "maantieto"
+            ],
+            "question": "Mille valtiolle Pääsiäissaari kuuluu?",
+            "question_tts": "Mille valtiolle Pääsiäissaari kuuluu?",
+            "context_information": "Pääsiäissaari on Chilelle kuuluva saari eteläisellä Tyynellämerellä.",
+            "context_information_tts": "Pääsiäissaari on Chilelle kuuluva saari eteläisellä Tyynellämerellä.",
+            "correct": "Chilelle",
+            "correct_tts": "Oikea vastaus on Chile.",
+            "incorrect_1": "Australialle",
+            "incorrect_2": "Brasilialle",
+            "incorrect_3": "Yhdysvalloille"
+        },
+        {
+            "id": 6,
+            "category": [
+                "maantieto"
+            ],
+            "question": "Mikä on maailman eteläisin kaupunki?",
+            "question_tts": "Mikä on maailman eteläisin kaupunki?",
+            "context_information": "Ushuaiaa pidetään maailman eteläisimpänä kaupunkina, vaikka sen eteläpuolellakin on pysyviä asutuskeskuksia.",
+            "context_information_tts": "Sitä pidetään maailman eteläisimpänä kaupunkina, vaikka sen eteläpuolellakin on pysyviä asutuskeskuksia.",
+            "correct": "Argentiinan Ushuaia",
+            "correct_tts": "Oikea vastaus on Ushuaia.",
+            "incorrect_1": "Australian Canberra",
+            "incorrect_2": "Brasilian São Paulo",
+            "incorrect_3": "Etelä-Afrikan Kapkaupunki"
+        },
+        {
+            "id": 7,
+            "category": [
+                "maantieto",
+                "ruoka"
+            ],
+            "question": "Mikä on vaahterasiirapin alkuperäinen kotimaa?",
+            "question_tts": "Mikä on vaahterasiirapin alkuperäinen kotimaa?",
+            "context_information": "Vaahterasiirappi koostuu 96-prosenttisesti sokerista.",
+            "context_information_tts": "Vaahterasiirappi koostuu yhdeksänkymmentäkuusi prosenttisesti sokerista.",
+            "correct": "Kanada",
+            "correct_tts": "Oikea vastaus on Kanada.",
+            "incorrect_1": "Saksa",
+            "incorrect_2": "Yhdysvallat",
+            "incorrect_3": "Peru"
+        },
+        {
+            "id": 8,
+            "category": [
+                "elokuva",
+                "kulttuuri"
+            ],
+            "question": "Mikä on maailmanhistorian kallein kuvattu elokuva?",
+            "question_tts": "Mikä on maailmanhistorian kallein kuvattu elokuva?",
+            "context_information": "Elokuvan budjetti oli 245 miljoonaa dollaria. Se tuotti yli kaksi miljardia dollaria.",
+            "context_information_tts": "Elokuvan budjetti oli kaksisataa neljäkymmentäviisi miljoonaa dollaria. Se tuotti yli kaksi miljardia dollaria.",
+            "correct": "Star Wars: The Force Awakens",
+            "correct_tts": "Oikea vastaus on Star Wars. The Force Awakens.",
+            "incorrect_1": "Avatar: The Way of Water",
+            "incorrect_2": "John Carter",
+            "incorrect_3": "Jurassic World: Fallen Kingdom"
+        },
+        {
+            "id": 9,
+            "category": [
+                "kirjallisuus",
+                "henkilöt"
+            ],
+            "question": "Mikä oli Taru sormusten herrasta -trilogian kirjoittaneen J. R. R. Tolkienin oikea nimi?",
+            "question_tts": "Mikä oli Taru sormusten herrasta -trilogian kirjoittaneen J. R. R. Tolkienin oikea nimi?",
+            "context_information": "John Ronald Reuel Tolkien syntyi 1892 Bloemfonteinissa, silloisen Oranjen vapaavaltion pääkaupungissa Etelä-Afrikassa.",
+            "context_information_tts": "Hän syntyi vuonna tuhat kahdeksansataa yhdeksänkymmentä kaksi Bloemfonteinissa, silloisen Oranjen vapaavaltion pääkaupungissa Etelä-Afrikassa.",
+            "correct": "John Ronald Reuel Tolkien",
+            "correct_tts": "Oikea vastaus on John Ronald Reuel Tolkien.",
+            "incorrect_1": "John Reuel Richard Tolkien",
+            "incorrect_2": "James Ronald Robert Tolkien",
+            "incorrect_3": "John Renault Rafael Tolkien"
+        },
+        {
+            "id": 10,
+            "category": [
+                "ruoka"
+            ],
+            "question": "Mikä näistä ainesosista EI ole vegaaninen?",
+            "question_tts": "Mikä näistä ainesosista ei ole vegaaninen?",
+            "context_information": "Mehiläiset tekevät hunajaa itselleen ja heidän terveytensä on uhattuna, kun ihmiset vievät hunajan.",
+            "context_information_tts": "Mehiläiset tekevät hunajaa itselleen ja heidän terveytensä on uhattuna, kun ihmiset vievät hunajan.",
+            "correct": "hunaja",
+            "correct_tts": "Hunaja ei ole vegaaninen.",
+            "incorrect_1": "parsakaali",
+            "incorrect_2": "saksanpähkinä",
+            "incorrect_3": "maapähkinävoi"
+        },
+        {
+            "id": 11,
+            "category": [
+                "ruoka"
+            ],
+            "question": "Jos ruoka-aine on kaltattu, mitä sille on tehty?",
+            "question_tts": "Jos ruoka-aine on kaltattu, mitä sille on tehty?",
+            "context_information": "Kalttaamisessa ruoka-ainetta keitetään, kunnes sen uloin kerros on valmis irroitettavaksi.",
+            "context_information_tts": "Kalttaamisessa ruoka-ainetta keitetään, kunnes sen uloin kerros on valmis irroitettavaksi.",
+            "correct": "Siitä on poistettu kuori keittämällä",
+            "correct_tts": "Oikea vastaus on että kalttauksessa kuori poistetaan keittämällä.",
+            "incorrect_1": "Se on keitetty kypsäksi miedolla lämmöllä",
+            "incorrect_2": "Se on siivutettu kauniisti",
+            "incorrect_3": "Siitä on erotettu siemenkota"
+        },
+        {
+            "id": 12,
+            "category": [
+                "taide",
+                "kulttuuri"
+            ],
+            "question": "Kuka tunnettu renesanssiajan taiteilija maalasi Viimeisen ehtoollisen?",
+            "question_tts": "Kuka tunnettu renesanssiajan taiteilija maalasi Viimeisen ehtoollisen?",
+            "context_information": "Maalaus on maailman arvostetuimpia, ja se sijaitsee Santa Maria delle Grazien kirkon ruokasalissa Milanossa.",
+            "context_information_tts": "Maalaus on maailman arvostetuimpia, ja se sijaitsee Santa Maria delle Grazien kirkon ruokasalissa Milanossa.",
+            "correct": "Leonardo da Vinci",
+            "correct_tts": "Oikea vastaus on Leonardo da Vinci.",
+            "incorrect_1": "Michelangelo",
+            "incorrect_2": "Raphael",
+            "incorrect_3": "Leon Battista Alberti"
+        },
+        {
+            "id": 13,
+            "category": [
+                "urheilu"
+            ],
+            "question": "Kuka Formula 1 -kuljettaja on voittanut eniten osakilpailuita?",
+            "question_tts": "Kuka Formula yksi kuljettaja on voittanut eniten osakilpailuita?",
+            "context_information": "Hamilton on voittanut 365 osakilpailua.",
+            "context_information_tts": "Hamilton on voittanut kolmesataa kuusikymmentä viisi osakilpailua.",
+            "correct": "Lewis Hamilton",
+            "correct_tts": "Oikea vastaus on Lewis Hamilton.",
+            "incorrect_1": "Jackie Stewart",
+            "incorrect_2": "Michael Schumacher",
+            "incorrect_3": "Ayrton Senna"
+        },
+        {
+            "id": 14,
+            "category": [
+                "urheilu"
+            ],
+            "question": "Mikä oli suomalaisen jääkiekkolegenda Teemu Selänteen ensimmäinen jääkiekkojoukkue?",
+            "question_tts": "Mikä oli suomalaisen jääkiekkolegenda Teemu Selänteen ensimmäinen jääkiekkojoukkue?",
+            "context_information": "Juniorivuotensa Selänne jääkiekkoili Espoossa, Espoon Palloseurassa yhden vajaan kauden, 1978–1979.",
+            "context_information_tts": "Juniorivuotensa Selänne jääkiekkoili Espoossa, Espoon Palloseurassa yhden vajaan kauden, vuosina seitsemänkymmentä kahdeksan seitsemänkymmentä yhdeksän.",
+            "correct": "Espoon Palloseura",
+            "correct_tts": "Oikea vastaus on Espoon Palloseura.",
+            "incorrect_1": "Oulun Kärpät",
+            "incorrect_2": "Helsingin Jokerit",
+            "incorrect_3": "Turun Palloseura"
+        },
+        {
+            "id": 15,
+            "category": [
+                "euroviisut",
+                "musiikki"
+            ],
+            "question": "Millä kappaleella ABBA voitti viisut vuonna 1974?",
+            "question_tts": "Millä kappaleella abba voitti viisut vuonna tuhat yhdeksänsataa seitsemänkymmentä neljä?",
+            "context_information": "Laulun sanoituksissa Napoleon Bonaparten tappio Waterloon taistelussa toimii metaforana naiselle, joka antautuu kosijan piirityksen edessä.",
+            "context_information_tts": "Laulun sanoituksissa Napoleon Bonaparten tappio Waterloon taistelussa toimii metaforana naiselle, joka antautuu kosijan piirityksen edessä.",
+            "correct": "Waterloo",
+            "correct_tts": "Biisin nimi oli Waterloo.",
+            "incorrect_1": "Mamma Mia",
+            "incorrect_2": "Dancing Queen",
+            "incorrect_3": "Money Money Money"
+        },
+        {
+            "id": 16,
+            "category": [
+                "euroviisut",
+                "musiikki"
+            ],
+            "question": "Mikä Euroopan ulkopuolella sijaitseva maa osallistui ensimmäistä kertaa viisuihin vuonna 2015?",
+            "question_tts": "Mikä Euroopan ulkopuolella sijaitseva maa osallistui ensimmäistä kertaa viisuihin vuonna kaksituhatta viisitoista?",
+            "context_information": "Australia teki debyyttinsä Eurovision laulukilpailussa 2015, johon EBU kutsui sen mukaan kilpailun 60-vuotisjuhlien kunniaksi.",
+            "context_information_tts": "Australia teki debyyttinsä Eurovision laulukilpailussa vuonna kaksituhatta viisitoista, johon ebu kutsui sen mukaan kilpailun kuusikymmenvuotisjuhlien kunniaksi.",
+            "correct": "Australia",
+            "correct_tts": "Oikea vastaus on Australia.",
+            "incorrect_1": "Uusi-Seelanti",
+            "incorrect_2": "Israel",
+            "incorrect_3": "Turkki"
+        },
+        {
+            "id": 17,
+            "category": [
+                "maantieto"
+            ],
+            "question": "Kuinka monta aikavyöhykettä Venäjällä on?",
+            "question_tts": "Kuinka monta aikavyöhykettä Venäjällä on?",
+            "context_information": "Vuonna 1919 kommunistit ottivat käyttöön peräti 11 aikavyöhykettä korostaakseen maan valtavia mittasuhteita.",
+            "context_information_tts": "Vuonna tuhat yhdeksänsataa yhdeksäntoista kommunistit ottivat käyttöön peräti yksitoista aikavyöhykettä korostaakseen maan valtavia mittasuhteita.",
+            "correct": "11",
+            "correct_tts": "Oikea vastaus on yksitoista.",
+            "incorrect_1": "10",
+            "incorrect_2": "9",
+            "incorrect_3": "12"
+        },
+        {
+            "id": 18,
+            "category": [
+                "historia"
+            ],
+            "question": "Mikä oli Istanbulin nimi ennen vuotta 1923?",
+            "question_tts": "Mikä oli Istanbulin nimi ennen vuotta tuhat yhdeksänsataa kaksikymmentä kolme?",
+            "context_information": "Konstantinopoli oli Itä-Rooman eli Bysantin valtakunnan pääkaupunki.",
+            "context_information_tts": "Konstantinopoli oli Itä-Rooman eli Bysantin valtakunnan pääkaupunki.",
+            "correct": "Konstantinopoli",
+            "correct_tts": "Oikea vastaus on Konstantinopoli.",
+            "incorrect_1": "Marmara",
+            "incorrect_2": "Antalya",
+            "incorrect_3": "Ankara"
+        },
+        {
+            "id": 19,
+            "category": [
+                "musiikki",
+                "pop-kulttuuri"
+            ],
+            "question": "Mistä kaupungista Billie Eilish on kotoisin?",
+            "question_tts": "Mistä kaupungista Billie Eilish on kotoisin?",
+            "context_information": "Hänen koko nimensä on Billie Eilish Pirate Baird O'Connell.",
+            "context_information_tts": "Hänen koko nimensä on Billie Eilish Pirate Baird O'Connell.",
+            "correct": "Los Angelesista",
+            "correct_tts": "Oikea vastaus on Los Angeles.",
+            "incorrect_1": "Lontoosta",
+            "incorrect_2": "Sydneystä",
+            "incorrect_3": "New York Citystä"
+        },
+        {
+            "id": 20,
+            "category": [
+                "maantieto"
+            ],
+            "question": "Mikä on Kanadan pääkaupunki?",
+            "question_tts": "Mikä on Kanadan pääkaupunki?",
+            "context_information": "Ottawa on väkiluvultaan Kanadan neljänneksi suurin kaupunki.",
+            "context_information_tts": "Se on väkiluvultaan Kanadan neljänneksi suurin kaupunki.",
+            "correct": "Ottawa",
+            "correct_tts": "Pääkaupunki on Ottawa.",
+            "incorrect_1": "Montreal",
+            "incorrect_2": "Toronto",
+            "incorrect_3": "Vancouver"
+        }
+    ]
+}

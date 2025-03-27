@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PubIQ question tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        pre {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Question data</h2>
+    <form id="dataForm">
+        <label>ID: <input type="number" id="id" value="999"></label>
+        <label>Categories (comma-separated): <input type="text" id="categories"></label>
+        <label>Question: <input type="text" id="question" oninput="syncFields('question', 'question_tts')"></label>
+        <label>Question Text-to-speech: <input type="text" id="question_tts"></label>
+        <label>Context Information: <input type="text" id="context_information" oninput="syncFields('context_information', 'context_information_tts')"></label>
+        <label>Context Information Text-to-speech: <input type="text" id="context_information_tts"></label>
+        <label>Correct Text-to-speech: <input type="text" id="correct_tts"></label>
+        <label>Correct Answer: <input type="text" id="correct"></label>
+        <label>Incorrect 1: <input type="text" id="incorrect_1"></label>
+        <label>Incorrect 2: <input type="text" id="incorrect_2"></label>
+        <label>Incorrect 3: <input type="text" id="incorrect_3"></label>
+        <button type="button" onclick="generateJSON()">Generate JSON</button>
+    </form>
+    
+    <h2>JSON output</h2>
+    <pre id="output"></pre>
+
+    <script>
+        function generateJSON() {
+            const categories = document.getElementById('categories').value.split(',').map(cat => cat.trim());
+            const data = {
+                id: parseInt(document.getElementById('id').value),
+                category: categories,
+                question: document.getElementById('question').value,
+                question_tts: document.getElementById('question_tts').value,
+                context_information: document.getElementById('context_information').value,
+                context_information_tts: document.getElementById('context_information_tts').value,
+                correct: document.getElementById('correct').value,
+                correct_tts: document.getElementById('correct_tts').value,
+                incorrect_1: document.getElementById('incorrect_1').value,
+                incorrect_2: document.getElementById('incorrect_2').value,
+                incorrect_3: document.getElementById('incorrect_3').value
+            };
+            document.getElementById('output').textContent = JSON.stringify(data, null, 4);
+        }
+
+        function syncFields(sourceId, targetId) {
+            document.getElementById(targetId).value = document.getElementById(sourceId).value;
+        }
+    </script>
+</body>
+</html>

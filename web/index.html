@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PubIQ</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="service.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align:center;color:green;">
+            PubIQ
+        </h1><br />
+
+        <div id="join-game">
+            <h2>Liity peliin</h2><br />
+            <b>Nimi</b><br /><input id="player-name" /><br /><br />
+            <button id="btn-register-player" class="btn btn-secondary btn-lg btn-block" type="button">Liity peliin</button>
+        </div>
+
+        <div id="waiting-for-players">
+            <h2>Odotetaan että peli alkaa...</h2>
+        </div>
+
+        <div id="look-at-tv">
+            <h2>Katso televisiota</h2>
+        </div>        
+
+        <div id="game">
+            <h2>Vastausvaihtoehdot</h2><br />
+            <button id="btn-answer-one" class="btn btn-secondary btn-lg btn-block" type="button"></button><br />
+            <button id="btn-answer-two" class="btn btn-secondary btn-lg btn-block" type="button"></button><br />
+            <button id="btn-answer-three" class="btn btn-secondary btn-lg btn-block" type="button"></button><br />
+            <button id="btn-answer-four" class="btn btn-secondary btn-lg btn-block" type="button"></button>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+div#question {
+    display: none;
+}
+
+div#question-answer {
+    display: none;
+}
+
+div#results {
+    display: none;
+}
+
+span#audio-finished {
+    display: none;
+}
