@@ -329,6 +329,187 @@
             "incorrect_1": "Montreal",
             "incorrect_2": "Toronto",
             "incorrect_3": "Vancouver"
+        },
+        {
+            "id": 21,
+            "category": [
+                "yleistieto",
+                "latina"
+            ],
+            "question": "Millä latinankielisellä nimellä tunnetaan eteläisen pallonpuoliskon revontulet?",
+            "question_tts": "Millä latinankielisellä nimellä tunnetaan eteläisen pallonpuoliskon revontulet?",
+            "context_information": "Revontulet ovat eteläisellä pallonpuoliskolla aurora australis eli etelänpalo.",
+            "context_information_tts": "Revontulet ovat eteläisellä pallonpuoliskolla aurora australis eli etelänpalo.",
+            "correct": "aurora australis",
+            "correct_tts": "Oikea vastaus on aurora australis.",
+            "incorrect_1": "aurora borealis",
+            "incorrect_2": "aurora meridionalis",
+            "incorrect_3": "aurora antarcticus"
+        },
+        {
+            "id": 22,
+            "category": [
+                "urheilu"
+            ],
+            "question": "Minkä maan maajoukkue on voittanut eniten FIFA-jalkapallon maailmanmestaruuskilpailuja?",
+            "question_tts": "Minkä maan maajoukkue on voittanut eniten FIFA-jalkapallon maailmanmestaruuskilpailuja?",
+            "context_information": "Brasilin maajoukkue on ainoa, joka on voittanut MM-kisat viisi kertaa.",
+            "context_information_tts": "Brasilin maajoukkue on ainoa, joka on voittanut maailmanmestaruuskisat viisi kertaa.",
+            "correct": "Brasilia",
+            "correct_tts": "Oikea vastaus on Brasilia.",
+            "incorrect_1": "Saksa",
+            "incorrect_2": "Argentiina",
+            "incorrect_3": "Italia"
+        },
+        {
+            "id": 23,
+            "category": [
+                "urheilu"
+            ],
+            "question": "Kuinka monta pelaajaa kummassakin joukkueessa on kentällä jääkiekko-ottelussa?",
+            "question_tts": "Kuinka monta pelaajaa kummassakin joukkueessa on kentällä jääkiekko-ottelussa?",
+            "context_information": "Jääkiekko-ottelussa kiekkoillaan viiden kenttäpelaajan ja yhden maalivahdin joukkueissa.",
+            "context_information_tts": "Jääkiekko-ottelussa kiekkoillaan viiden kenttäpelaajan ja yhden maalivahdin joukkueissa.",
+            "correct": "kuusi",
+            "correct_tts": "Oikea vastaus on kuusi.",
+            "incorrect_1": "viisi",
+            "incorrect_2": "seitsemän",
+            "incorrect_3": "kahdeksan"
+        },
+        {
+            "id": 24,
+            "category": [
+                "urheilu"
+            ],
+            "question": "Missä kaupungissa järjestetään vuosittain Wimbledonin tennisturnaus?",
+            "question_tts": "Missä kaupungissa järjestetään vuosittain Wimbledonin tennisturnaus?",
+            "context_information": "Wimbledon on vanhin ja arvovaltaisin tennisturnaus, joka pelataan Englannin Lontoossa, All England Lawn Tennis and Croquet Clubin nurmikentillä.",
+            "context_information_tts": "Wimbledon on vanhin ja arvovaltaisin tennisturnaus, joka pelataan Englannin Lontoossa, All England Lawn Tennis and Croquet Clubin nurmikentillä.",
+            "correct": "Lontoo",
+            "correct_tts": "Oikea vastaus on Lontoo.",
+            "incorrect_1": "New York",
+            "incorrect_2": "Melbourne",
+            "incorrect_3": "Wimbledon"
+        },
+        {
+            "id": 25,
+            "category": [
+                "historia"
+            ],
+            "question": "Minä vuonna Neuvostoliitto hajosi?",
+            "question_tts": "Minä vuonna Neuvostoliitto hajosi?",
+            "context_information": "Sosialististen neuvostotasavaltojen liitto lakkasi olemasta joulukuussa 1991, kun sen jäsenvaltioista muodostui itsenäisiä tasavaltoja.",
+            "context_information_tts": "Sosialististen neuvostotasavaltojen liitto lakkasi olemasta joulukuussa yhdeksänkymmentä yksi, ja sen jäsenvaltioista tuli itsenäisiä valtioita.",
+            "correct": "1991",
+            "correct_tts": "Oikea vastaus on vuonna yhdeksänkymmentä yksi.",
+            "incorrect_1": "1989",
+            "incorrect_2": "1993",
+            "incorrect_3": "1985"
+        },
+        {
+            "id": 26,
+            "category": [
+                "musiikki"
+            ],
+            "question": "Mikä yhtye esitti kappaleen Bohemian Rhapsody?",
+            "question_tts": "Mikä yhtye esitti kappaleen Bohemian Rhapsody?",
+            "context_information": "Queen julkaisi Bohemian Rhapsodyn albumillaan A Night at the Opera vuonna 1975, ja siitä tuli yksi rock-historian ikonisimmista kappaleista.",
+            "context_information_tts": "Queen julkaisi Bohemian Rhapsodyn albumillaan A Night at the Opera vuonna seitsemänkymmentä viisi, ja siitä tuli yksi rock-historian ikonisimmista kappaleista.",
+            "correct": "Queen",
+            "correct_tts": "Yhtye oli Queen.",
+            "incorrect_1": "The Beatles",
+            "incorrect_2": "Pink Floyd",
+            "incorrect_3": "Led Zeppelin"
+        },
+        {
+            "id": 27,
+            "category": [
+                "kirjallisuus"
+            ],
+            "question": "Mikä oli ensimmäinen Harry Potter -kirja?",
+            "question_tts": "Mikä oli ensimmäinen Harry Potter kirja?",
+            "context_information": "Kaksitoista kustantamoa ehti hylätä kirjan, kunnes Bloomsbury Publishing teki siitä tarjouksen.",
+            "context_information_tts": "Kaksitoista kustantamoa ehti hylätä kirjan, kunnes Bloomsbury Publishing teki siitä tarjouksen.",
+            "correct": "Harry Potter ja viisasten kivi",
+            "correct_tts": "Viisasten kivi on ensimmäinen Potter kirja.",
+            "incorrect_1": "Harry Potter ja Azkabanin vanki",
+            "incorrect_2": "Harry Potter ja salaisuuksien kammio",
+            "incorrect_3": "Harry Potter ja liekehtivä pikari"
+        },
+        {
+            "id": 28,
+            "category": [
+                "musiikki"
+            ],
+            "question": "Kuka esitti hittikappaleen Thriller vuonna 1982?",
+            "question_tts": "Kuka esitti hittikappaleen Thriller vuonna kahdeksankymmentä kaksi?",
+            "context_information": "Jacksonin Thriller on Yhdysvaltojen kaikkien aikojen toiseksi myydyin levy.",
+            "context_information_tts": "Jacksonin Thriller on Yhdysvaltojen kaikkien aikojen toiseksi myydyin levy.",
+            "correct": "Michael Jackson",
+            "correct_tts": "Thrillerin esitti popin kuningas Michael Jackson.",
+            "incorrect_1": "Prince",
+            "incorrect_2": "Madonna",
+            "incorrect_3": "Whitney Houston"
+        },
+        {
+            "id": 29,
+            "category": [
+                "tiede"
+            ],
+            "question": "Kuka esitti suhteellisuusteorian?",
+            "question_tts": "Kuka esitti suhteellisuusteorian?",
+            "context_information": "Suhteellisuusteorian yhtälö E=mc² lienee maailman tunnetuimpia.",
+            "context_information_tts": "Suhteellisuusteorian yhtälö ee on yhtäkuin äm see toiseen lienee maailman tunnetuimpia.",
+            "correct": "Albert Einstein",
+            "correct_tts": "Oikea vastaus on Albert Einstein.",
+            "incorrect_1": "Isaac Newton",
+            "incorrect_2": "Galileo Galilei",
+            "incorrect_3": "Marie Curie"
+        },
+        {
+            "id": 30,
+            "category": [
+                "tiede"
+            ],
+            "question": "Millä yksiköllä mitataan sähkön vastusta?",
+            "question_tts": "Millä yksiköllä mitataan sähkön vastusta?",
+            "context_information": "Saksalaisen Georg Ohmin mukaan nimetty laki kuvaa jännitteen, virran ja vastuksen välisen suhteen.",
+            "context_information_tts": "Saksalaisen Georg Oomin mukaan nimetty laki kuvaa jännitteen, virran ja vastuksen välisen suhteen.",
+            "correct": "Ohmi (Ω)",
+            "correct_tts": "Oikea vastaus on oomi.",
+            "incorrect_1": "Voltti (V)",
+            "incorrect_2": "Ampeeri (A)",
+            "incorrect_3": "Watti (W)"
+        },
+        {
+            "id": 31,
+            "category": [
+                "tekniikka"
+            ],
+            "question": "Mitä teknologiaa Wi-Fi käyttää datapakettien siirtoon?",
+            "question_tts": "Mitä teknologiaa Wi-Fi käyttää datapakettien siirtoon?",
+            "context_information": "Wi-Fi on kauppanimi. Teknologian oikea nimi on WLAN, eli langaton lähiverkko.",
+            "context_information_tts": "Wifi on kauppanimi. Teknologian oikea nimi on veelan, eli langaton lähiverkko.",
+            "correct": "radioaaltoja",
+            "correct_tts": "Oikea vastaus on radioaaltoja.",
+            "incorrect_1": "infrapuna-aaltoja",
+            "incorrect_2": "ultraääntä",
+            "incorrect_3": "ultraviolettisäteilyä"
+        },
+        {
+            "id": 32,
+            "category": [
+                "tiede"
+            ],
+            "question": "Mikä on maailmankaikkeuden yleisin alkuaine?",
+            "question_tts": "Mikä on maailmankaikkeuden yleisin alkuaine?",
+            "context_information": "Vety on jaksollisen järjestelmän ensimmäinen alkuaine.",
+            "context_information_tts": "Vety on jaksollisen järjestelmän ensimmäinen alkuaine.",
+            "correct": "vety",
+            "correct_tts": "Oikea vastaus on vety.",
+            "incorrect_1": "happi",
+            "incorrect_2": "hiili",
+            "incorrect_3": "typpi"
         }
     ]
 }
